@@ -5,6 +5,9 @@ public class JavaBasic {
         int n = 23;
         long lo = 2301231231l;
         int binary = 0b1001;
-        System.out.println(binary);
+        Size size = Size.SMALL;
+        double x = 4;
+        double y = Math.sqrt(x);
+        System.out.println(size);
     }
 }
