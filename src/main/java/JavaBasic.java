@@ -5,7 +5,7 @@ public class JavaBasic {
     public static void main(String[] args) {
         String greeting = "Hello";
         int n = 23;
-        long lo = 2301231231l;
+        long lo = 2301231231L;
         int binary = 0b1001;
         Size size = Size.SMALL;
         double x = 4;
@@ -31,5 +31,6 @@ public class JavaBasic {
 //        byte c = 9;
 //        long length = b & c;
 //        System.out.println(length);
+
     }
 }
