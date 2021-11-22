@@ -22,5 +22,6 @@ public class EmployeeTest {
 
         System.out.println("staff0 's nextID = " + staff[0].getNextId());
         System.out.println("staff1 's nextID = " + staff[1].getNextId());
+        System.out.println("使用静态方法nextId=" + Employee.anotherGetNextId());//静态方法不需要实例对象
     }
 }

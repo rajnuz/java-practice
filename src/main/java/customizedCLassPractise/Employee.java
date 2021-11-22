@@ -35,6 +35,10 @@ public class Employee {
         return hireDay;
     }
 
+    //静态方法只能访问静态域
+    public static int anotherGetNextId(){
+        return nextId;
+    }
 
     public int getNextId (){
         return nextId;
