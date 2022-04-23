@@ -1,0 +1,13 @@
+server:
+#  max-http-header-size: 65536
+#  tomcat:
+#    max-http-header-size: 65536
+#    threads:
+#      min-spare: 5
+#      max: 100
+#    max-connections: 1000
+#    accept-count: 100
+  port: 8080
+#spring:
+#  application:
+#    name: springpractice
